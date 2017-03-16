@@ -4,7 +4,6 @@ npm-debug.log*
 
 # dependencies
 node_modules
-reveal.js
 
 # built stuff
 build
