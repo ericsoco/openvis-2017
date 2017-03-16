@@ -1,0 +1,30 @@
+{
+  "name": "openvis-2017",
+  "version": "1.0.0",
+  "description": "Data as a Creative Constraint: Eric Socolofsky, OpenVis Conf 2017",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd reveal.js; npm start",
+    "postinstall": "./scripts/install-reveal.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericsoco/openvis-2017.git"
+  },
+  "keywords": [
+    "visualization",
+    "data",
+    "visualization",
+    "generative",
+    "art",
+    "algorithmic",
+    "art",
+    "presentation"
+  ],
+  "author": "ericsoco",
+  "license": "CC-BY-2.0",
+  "bugs": {
+    "url": "https://github.com/ericsoco/openvis-2017/issues"
+  },
+  "homepage": "https://github.com/ericsoco/openvis-2017#readme"
+}
