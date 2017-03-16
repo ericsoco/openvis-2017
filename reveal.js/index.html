@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="ovc2017/style.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!--
+				---------------------
+						INTRO
+				---------------------
+				-->
+				<section class="light" data-background-image="./ovc2017/img/whiteBkgd.jpg" data-background-repeat="repeat">
+					<h1>Data as Creative Constraint</h1>
+					<br>
+					<br>
+					<br>
+					<h2 class="thin">Eric Socolofsky</h2>
+					<h2 class="thin">@ericsoco</h2>
+					<aside class="notes" data-markdown>
+						## Intro
+						Intro notes.
+					</aside>
+				</section>
+
+				<section>
+					visualization as art + design
+					<aside class="notes" data-markdown>
+						TODO: pretty genart image to look at while i blather
+					</aside>
+				</section>
+
+				<section>
+					why does visual quality matter?
+
+					design: accessibility (immediate understanding, familiar paradigms), legibility/clarity
+					art: initial attraction ("hook"), prolonged engagement (long tail), memorability (mental image)
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					applicability / audience
+					not for every project / everyone.
+					consider content, audience, and their frame of mind:
+					if more likely to sit down and explore, great
+					if just skimming, initial impact matters more than interactivity
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<!--
+				--------------------------
+						DEFINITIONS
+				--------------------------
+				-->
+				<section class="light" data-background-image="./ovc2017/img/whiteBkgd.jpg" data-background-repeat="repeat">
+					<h2>Generative Art</h2>
+					aka:
+					algorithmic art
+					creative coding
+					computational art
+					TODO: define?
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					<h2>two approaches:</h2>
+					<br>
+					<ul>
+						<li class="fragment fade-up"><h4>apply data to art (data art)</h4></li>
+						<li class="fragment fade-up"><h4>apply art to data (bespoke visualization)</h4></li>
+					</ul>
+					<aside class="notes" data-markdown>
+						"bespoke visualization" feels like a bit of a bad word these days...re-reference "applicability" slide
+						following examples will be moving back and forth between the two
+					</aside>
+				</section>
+
+				<!--
+				--------------------------
+						TECHNIQUES
+				--------------------------
+				-->
+				<section class="light" data-background-image="./ovc2017/img/whiteBkgd.jpg" data-background-repeat="repeat">
+					<h2>Techniques</h2>
+					<br>
+					<ul>
+						<li class="fragment fade-up"><h4>algorithms</h4></li>
+						<li class="fragment fade-up"><h4>randomness & probability</h4></li>
+						<li class="fragment fade-up"><h4>particle systems</h4></li>
+						<li class="fragment fade-up"><h4>recursion & repetition</h4></li>
+						<li class="fragment fade-up"><h4>motion</h4></li>
+					</ul>
+					<aside class="notes" data-markdown>
+						5 full-width rows with background image for each;
+						this background image becomes full-screen background for each title slide
+					</aside>
+				</section>
+
+				<section>
+					<h2>algorithms</h2>
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					<h2>randomness & probability</h2>
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					<h2>particle systems</h2>
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					<h2>recursion & repetition</h2>
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					<h2>motion</h2>
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<!--
+				------------------------
+						EXAMPLES
+				------------------------
+				-->
+				<section class="light" data-background-image="./ovc2017/img/whiteBkgd.jpg" data-background-repeat="repeat">
+					<h2>Examples</h2>
+					<aside class="notes" data-markdown>
+						TODO: decide what goes here
+					</aside>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				],
+
+				width: 1920,
+				height: 1080,
+				margin: 0,
+
+				// publish with notes overlaid on slides
+				// showNotes: true
+			});
+		</script>
+	</body>
+</html>
