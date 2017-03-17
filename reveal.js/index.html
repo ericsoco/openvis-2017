@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Data as Creative Constraint | Eric Socolofsky, OpenVis Conf 2017</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="ovc2017/style.css">
@@ -119,11 +119,27 @@
 					</aside>
 				</section>
 
-				<section>
+				<section class="title-slide" data-background-image="./ovc2017/slides/solLewitt-drawing1247_rotated.jpg" data-background-size="contain">
 					<h2>algorithms</h2>
+					<div class="background-caption">
+						<h3>Sol LeWitt: Wall Drawing 1247</h3>
+						<h5 class="byline"><a href="https://www.flickr.com/photos/ericsoco/26665376824" target="_blank">Eric Socolofsky</a></h5>
+					</div>
 					<aside class="notes" data-markdown>
 					</aside>
 				</section>
+
+				<section data-background-image="./ovc2017/slides/LeWitt_Wall_Drawing_69_1971_detail0.jpg" data-background-size="contain">
+					Wall Drawing #69: Lines not long, not straight, not touching, drawn at random using four colors, uniformly dispersed with maximum density, covering the entire surface of the wall., 1971
+					<div class="background-caption">
+						<h3>Sol LeWitt: Wall Drawing 69</h3>
+						<h5 class="byline"><a href="http://www.mnuchingallery.com/" target="_blank">Mnuchin Gallery</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+
 
 				<section>
 					<h2>randomness & probability</h2>
@@ -166,6 +182,7 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="ovc2017/js/app.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -183,6 +200,10 @@
 				width: 1920,
 				height: 1080,
 				margin: 0,
+				controls: false,
+
+				// preload this many slides away from current
+				viewDistance: 3
 
 				// publish with notes overlaid on slides
 				// showNotes: true

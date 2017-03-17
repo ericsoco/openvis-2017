@@ -26,3 +26,6 @@ Gruntfile.js
 LICENSE
 package.json
 README.md
+
+# be sure to allow everything custom
+!ovc2017/*
