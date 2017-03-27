@@ -20,6 +20,10 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!-- Flowplayer.org, used for FLV playback -->
+		<link rel="stylesheet" href="//releases.flowplayer.org/7.0.2/skin/skin.css">
+		<script src="//releases.flowplayer.org/7.0.2/flowplayer.min.js"></script>
 	</head>
 	<body>
 		<div class="reveal">
@@ -237,7 +241,19 @@
 				</section>
 
 				<section>
-					<iframe width="1920" height="1080" src="https://www.youtube.com/embed/jbkSRLYSojo?start=238&end=255&autoplay=1" frameborder="0"></iframe>
+					<div id="flv01"></div>
+					<div class="fragment background-caption">
+						<h3>Uniqlo Soho NY Teaser</h3>
+						<h5 class="byline"><a href="tha.jp/86" target="_blank">tha ltd.</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						motion as transition
+  						motion to add character, whimsy
+					</aside>
+				</section>
+
+				<section>
+					<iframe width="1920" height="1080" src="https://www.youtube.com/embed/jbkSRLYSojo?start=238&end=255&autoplay=0" frameborder="0"></iframe>
 					<div class="fragment background-caption">
 						<h3>200 Countries, 200 Years, 4 Minutes</h3>
 						<h5 class="byline"><a href="http://www.complexification.net/" target="_blank">Hans Rosling / BBC</a></h5>
@@ -246,6 +262,20 @@
   						this is autoplaying even when the tab is not focused! doesn't happen with vimeo...
 					</aside>
 				</section>
+
+				<section>
+					<iframe data-src="https://player.vimeo.com/video/210204894?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0"></iframe>
+					<div class="fragment background-caption">
+						<h3>Greenland is Melting Away</h3>
+						<h5 class="byline"><a href="https://www.nytimes.com/interactive/2015/10/27/world/greenland-is-melting-away.html?_r=0" target="_blank">Coral Davenport, Josh Haner, Larry Buchanan And Derek Watkins for the New York Times</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+						single-axis motion; timing matters
+						slight pulling in before pulling out: like taking a breath
+						TODO: screencap on work compy for better framerate
+					</aside>
+				</section>
+
 
 
 				<!--

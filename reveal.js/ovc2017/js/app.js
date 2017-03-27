@@ -28,4 +28,15 @@
 
 	});
 
+	// install flowplayer into selected container
+	var container = document.getElementById('flv01');
+	flowplayer(container, {
+		clip: {
+			sources: [{
+				type: 'video/flash',
+				src: 'http://transmote.com/talks/uq-teaser.flv'
+			}]
+		}
+	});
+
 })();
