@@ -148,7 +148,7 @@
 				<section data-background-image="./ovc2017/slides/LeWitt_Wall_Drawing_69_1971_detail0.jpg" data-background-size="contain">
 					<div class="fragment background-caption">
 						<h3>Wall Drawing 69</h3>
-						<h5 class="byline"><a href="http://www.mnuchingallery.com/" target="_blank">Sol LeWitt / Mnuchin Gallery</a></h5>
+						<h5 class="byline"><a href="http://www.mnuchingallery.com/" target="_blank">Sol LeWitt (Mnuchin Gallery)</a></h5>
 					</div>
 					<p class="fragment">
 						Lines not long, not straight, not touching, drawn at random using four colors, uniformly dispersed with maximum density, covering the entire surface of the wall.
@@ -161,7 +161,7 @@
 					<iframe data-src="https://player.vimeo.com/video/36060413?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0"></iframe>
 					<div class="fragment background-caption">
 						<h3>Process 16 (Software 3)</h3>
-						<h5 class="byline"><a href="http://www.complexification.net/" target="_blank">Casey Reas / bitforms gallery</a></h5>
+						<h5 class="byline"><a href="http://www.complexification.net/" target="_blank">Casey Reas (bitforms gallery)</a></h5>
 					</div>
   					<aside class="notes" data-markdown>
 	  					A rectangular surface filled with instances of Element 3, each with a different size and gray value. Draw a tiny, transparent circle at the midpoint of each Element. Increase a circle's size and opacity while its Element is touching another Element and decrease while it is not.
@@ -173,12 +173,48 @@
 				<section>
 					<iframe data-src="https://player.vimeo.com/video/208903786?autoplay=1&loop=1color=ffffff&title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0"></iframe>
 					<div class="background-caption">
-						<h3>Jared Tarbell: Substrate</h3>
+						<h3>Substrate</h3>
 						<h5 class="byline"><a href="http://www.complexification.net/" target="_blank">Jared Tarbell</a></h5>
 					</div>
   					<aside class="notes" data-markdown>
 						Lines grow in a particular direction until they reach the boundary of the domain, or until they collide with another line. When a line stops, at least one new line is spawned perpendicularly off of one of the existing lines at an arbitrary position.
 						(As described by <a href="http://inconvergent.net/generative/fractures/" target="_blank">Anders Hoff</a>)
+					</aside>
+				</section>
+
+				<section>
+					<iframe data-src="https://player.vimeo.com/video/8581392?autoplay=1&loop=1color=ffffff&title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0"></iframe>
+					<div class="background-caption">
+						<h3>Magnetosphere</h3>
+						<h5 class="byline"><a href="http://roberthodgin.com/portfolio/work/magnetosphere/" target="_blank">Robert Hodgin</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+						At its core, it is a simple physics system which plays opposing forces against each other. Some elements in the scene have an attractive force, others have a repulsive force, and over time these elements create a dynamic composition as they are pushed about by these invisible forces.
+						Data-driven (sound)
+					</aside>
+				</section>
+
+				<section>
+					<iframe data-src="https://player.vimeo.com/video/146938134?autoplay=1&loop=1color=ffffff&title=0&byline=0&portrait=0" width="1920" height="1080" frameborder="0"></iframe>
+					<div class="background-caption">
+						<h3>New Balance midsoles</h3>
+						<h5 class="byline"><a href="http://n-e-r-v-o-u-s.com/blog/?p=7048" target="_blank">Nervous System</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+						"highly controllable anisotropic, macroscopic foam structure"
+						They have a low relative density and are highly porous giving them the unique property of being both lightweight and strong.
+						adapt density per foot strike pressure data
+					</aside>
+				</section>
+
+				<section>
+					<iframe width="1920" height="1080" src="https://www.youtube.com/embed/XwjlYpJCBgk?start=50&end=95&autoplay=0" frameborder="0"></iframe>
+					<div class="fragment background-caption">
+						<h3>Test Pattern</h3>
+						<h5 class="byline"><a href="http://www.ryojiikeda.com/project/testpattern/" target="_blank">Ryoji Ikeda</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						converts media into 0s/1s. super-simple algorithm: threshold
 					</aside>
 				</section>
 
@@ -194,6 +230,18 @@
 						<h5 class="byline"><a href="https://commons.wikimedia.org/wiki/File:30-sided_die.jpg" target="_blank">Wikimedia Commons</a></h5>
 					</div>
 					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section data-background-image="./ovc2017/slides/mozart-tables.png" data-background-size="contain">
+					<div class="fragment background-caption">
+						<h3>Musikalisches Würfelspiel</h3>
+						<h5 class="byline"><a href="http://abjad.mbrsi.org/literature_examples/mozart.html" target="_blank">via Abjad documentation</a></h5>
+					</div>
+					<div class="fragment">
+						<iframe width="1920" height="1080" src="https://www.youtube.com/embed/fK2MCXpDWB4?start=85&autoplay=0" frameborder="0"></iframe>
+					</div>
+  					<aside class="notes" data-markdown>
 					</aside>
 				</section>
 
@@ -330,9 +378,13 @@
 				height: 1080,
 				margin: 0,
 				controls: false,
+				progress: false,
 
 				// preload this many slides away from current
-				viewDistance: 3
+				viewDistance: 3,
+
+				transition: 'fade',
+				transitionSpeed: 'fast'
 
 				// publish with notes overlaid on slides
 				// showNotes: true
