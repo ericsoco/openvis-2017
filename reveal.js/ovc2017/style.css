@@ -340,11 +340,25 @@ body {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 }
 .reveal .background-caption {
-  position: absolute;
-  right: 20px;
-  bottom: 0;
-  text-align: right;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  width: 100%;
+  transform: translateX(-50%);
 }
+.reveal .background-caption a {
+  color: #fff;
+}
+.reveal .background-caption > * {
+  display: table-cell;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  margin: 0 20px;
+}
+.reveal .background-caption > *:first-child { left: 0; }
+.reveal .background-caption > *:last-child { right: 0; }
+.reveal .background-caption > h3 { bottom: -5px; }  /* vertical-align: baseline */
 
 .reveal .byline {
   font-style: italic;

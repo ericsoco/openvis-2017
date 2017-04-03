@@ -22,9 +22,11 @@
 
 	Reveal.addEventListener( 'slidechanged', function( event ) {
 
+		/*
 		// position background caption at bottom of slide
 		var backgroundCaption = event.currentSlide.querySelector('.background-caption');
 		if (backgroundCaption) backgroundCaption.style.top = event.currentSlide.style.top;
+		*/
 
 	});
 
