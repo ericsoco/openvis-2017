@@ -346,6 +346,13 @@ body {
   width: 100%;
   transform: translateX(-50%);
 }
+.reveal iframe {
+  margin-top: -40px;
+}
+.reveal .background-caption.for-iframe {
+  max-width: 1600px;
+  bottom: 30px;
+}
 .reveal .background-caption a {
   color: #fff;
 }
