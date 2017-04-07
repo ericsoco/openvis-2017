@@ -346,6 +346,9 @@ body {
   width: 100%;
   transform: translateX(-50%);
 }
+.reveal section img {
+  border: none;
+}
 .reveal iframe {
   margin-top: -40px;
 }
@@ -369,4 +372,11 @@ body {
 
 .reveal .byline {
   font-style: italic;
+}
+
+/* manually position current-visible fragments */
+/* http://stackoverflow.com/questions/26820084/hide-reveal-js-fragments-after-their-appearance */
+.reveal .fragment.current-visible.overlap.one {
+  position: relative;
+  top: -144px;
 }
