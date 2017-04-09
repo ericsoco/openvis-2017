@@ -266,6 +266,33 @@
 				</section>
 
 				<section>
+					<iframe src="https://www.youtube.com/embed/eAjKD12RkEY?autoplay=0" width="1600" height="900" frameborder="0"></iframe>
+					<div class="background-caption for-iframe">
+						<h3>Music of Changes</h3>
+						<h5 class="byline thin"><a href="https://en.wikipedia.org/wiki/Music_of_Changes" target="_blank">Craig Reynolds</a></h5>
+					</div>
+					<img data-src="cage-7125396.png">
+  					<aside class="notes" data-markdown>
+  						Populated grid of 8x8 cells with random numbers from I-Ching; used these values to determine sounds and silences, durations, dynamics.
+  						Randomness and algorithmic composition do _not_ guarantee aesthetic pleasure.
+					</aside>
+				</section>
+
+				<section>
+					<iframe data-src="https://player.vimeo.com/video/212397917?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
+					<div class="background-caption for-iframe">
+						<h3>Shepherding Randomness</h3>
+						<h5 class="byline thin"><a href="inconvergent.net/shepherding-random-numbers/" target="_blank">Anders Hoff</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						Algorithms used to "shepherd" randomness
+  						Randomize velocity, keep within bounds, and sum across horizontal canvas
+  						Random walk for each point; each point randomly moves toward or away average position of neighbors
+  						Differential growth; randomly bisect edges between nodes if they are long and/or curved strongly enough
+					</aside>
+				</section>
+
+				<section>
 					<img data-src="./ovc2017/slides/random-nytimes.gif" style="transform: scale(1.5)">
 					<div class="background-caption for-iframe">
 						<h3>2016 Election Forecast</h3>
@@ -412,7 +439,7 @@
 					<img class="fragment fade-in" data-src="./ovc2017/slides/personal_franzen.jpg" style="transform: scale(0.75)">
   					<aside class="notes" data-markdown>
 						my own personal franzen, made during a boring presentation.
-						if I see any of you out there doing this during my talk, then I'll be sad :(
+						if I see any of you out there doing this during my talk, then I'll be very disappointed :(
 					</aside>
 				</section>
 
@@ -500,13 +527,92 @@
 				-->
 				<section class="title-slide" data-background-image="./ovc2017/slides/natzke1.jpg" data-background-size="contain">
 					<h1>color</h1>
+					<ul>
+						<li class="fragment fade-up"><h4>legibility</h4></li>
+						<li class="fragment fade-up"><h4>highlighting</h4></li>
+						<li class="fragment fade-up"><h4>encoding</h4></li>
+						<li class="fragment fade-up"><h4>aesthetic / graphic appeal</h4></li>
+					</ul>
 					<aside class="notes" data-markdown>
+						Obviously don't need to tell a room full of visualization practitioners how important color is for visualiation.
+						While I could list off some relevant applications (step through them here), I'll focus instead on how colors can be chosen (in the context of generative/data art).
+
 						transition by removing '.title-slide' class -- white veil is lifted off of colorful background
 						also, consider using blend modes; mix-blend-mode:multiply on '.slides' and then make title bigger, bold, and pull a color from background image e.g. #fc3a6d
 						generally speaking, using mix-blend-mode:multiply could work well for background-caption, though i think for it to work the background-caption div would have to move out of .slides and into .backgrounds
 					</aside>
 				</section>
 
+				<section>
+					<img data-src="./ovc2017/slides/natzke-blades1.jpg">
+					<aside class="notes" data-markdown>
+					</aside>
+				</section>
+
+				<section>
+					<img data-src="./ovc2017/slides/natzke-blades2.jpg">
+					<div class="fragment background-caption">
+						<h3>Blades</h3>
+						<h5 class="byline thin"><a href="https://www.flickr.com/photos/natzke/3726222451" target="_blank">Erik Natzke</a></h5>
+					</div>
+					<aside class="notes" data-markdown>
+						sample color for brush stroke from brush stroke position
+					</aside>
+				</section>
+
+				<section>
+					<img data-src="./ovc2017/slides/boxFitting-complexification.jpg">
+					<div class="fragment background-caption">
+						<h3>box.fitting.img</h3>
+						<h5 class="byline thin"><a href="http://www.complexification.net/gallery/machines/boxFittingImg/index.php" target="_blank">Jared Tarbell</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						sample from source image
+					</aside>
+				</section>
+
+				<section>
+					<img data-src="./ovc2017/slides/quasimondo_piePacking.png">
+					<div class="fragment background-caption">
+						<h3>The Starry Night Pie Packed</h3>
+						<h5 class="byline thin"><a href="https://www.flickr.com/photos/quasimondo/4655584147" target="_blank">Mario Klingemann</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						sample from source image meets analysis + visualization
+					</aside>
+				</section>
+
+				<section data-background-image="./ovc2017/slides/flickrFlow.jpg" data-background-size="contain">
+					<div class="fragment background-caption">
+						<h3>Flickr Flow</h3>
+						<h5 class="byline thin"><a href="http://hint.fm/projects/flickr/" target="_blank">Fernanda Viégas & Martin Wattenberg</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						Instead of finding dominant color across space, derive dominant color across time.
+					</aside>
+				</section>
+
+				<section data-background-image="./ovc2017/slides/ClassOf67-88.jpg" data-background-size="contain">
+					<div class="fragment background-caption">
+						<h3>The Class of 1988 & The Class of 1967</h3>
+						<h5 class="byline thin"><a href="http://www.salavon.com/work/Class/" target="_blank">Jason Salavon</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						Pick color by averaging across series of images. Basically, data visualization.
+  						Color as granule of meaning; literal representation decomposed into individual pixel colors
+					</aside>
+				</section>
+
+				<section data-background-image="./ovc2017/slides/turrell-meeting.jpg" data-background-size="cover">
+					<div class="fragment background-caption">
+						<h3>Meeting</h3>
+						<h5 class="byline thin"><a href="https://www.moma.org/calendar/exhibitions/3643?locale=en" target="_blank">James Turrell (MoMA)</a></h5>
+					</div>
+  					<aside class="notes" data-markdown>
+  						Rather than selecting colors from source image, isolate and intensify color present in the environment.
+  						Not really generative art, but concept of showcasing results of a complex system (nature rather than code) apply here.
+					</aside>
+				</section>
 
 
 				<!--

@@ -22,6 +22,7 @@ https://vimeopro.com/bitforms/reas/video/36060413
 sandTravelerA0000.jpg
 substrate3001.jpg
 substrate_lg.png
+boxFitting-complexification.jpg
 Jared Tarbell
 http://www.complexification.net/gallery/
 
@@ -49,6 +50,10 @@ natzke1.jpg
 Erik Natzke
 http://natzke.com
 
+natzke-blades1.jpg
+Erik Natzke
+https://www.flickr.com/photos/natzke/3726222451
+
 mozart-tables.png
 Abjad docs
 http://abjad.mbrsi.org/literature_examples/mozart.html
@@ -68,3 +73,19 @@ http://www.esono.com/boris/projects/poetry12/
 cyriak_handfingers.gif
 Cyriak: Handfingers
 https://www.youtube.com/watch?v=TR_8SDNQ0ks
+
+cage-7125396.png
+John Cage: Music of Changes
+http://johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=134
+
+turrell-meeting.jpg
+James Turrell: Meeting (MoMA)
+https://www.moma.org/calendar/exhibitions/3643?locale=en
+
+ClassOf67-88.jpg
+Jason Salavon
+http://www.salavon.com/work/Class/image/181/
+
+flickrFlow.jpg
+Fernanda Viégas and Martin Wattenberg
+http://hint.fm/projects/flickr/
