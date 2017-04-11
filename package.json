@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cd reveal.js; npm start",
-    "postinstall": "./scripts/install-reveal.sh"
+    "postinstall": "./scripts/install-reveal.sh",
+    "gh-deploy": "git-directory-deploy --directory reveal.js/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/ericsoco/openvis-2017/issues"
   },
-  "homepage": "https://github.com/ericsoco/openvis-2017#readme"
+  "homepage": "https://github.com/ericsoco/openvis-2017#readme",
+  "devDependencies": {
+    "git-directory-deploy": "^1.5.1"
+  }
 }
