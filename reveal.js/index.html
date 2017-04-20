@@ -218,7 +218,7 @@
 						(As described by <a href="http://inconvergent.net/generative/fractures/" target="_blank">Anders Hoff</a>)
 					</aside>
 				</section>
-
+				<!--
 				<section>
 					<iframe data-src="https://player.vimeo.com/video/8581392?autoplay=1&loop=1color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
 					<div class="background-caption for-iframe">
@@ -230,7 +230,7 @@
 						Data-driven (sound)
 					</aside>
 				</section>
-
+				-->
 				<section>
 					<iframe data-src="https://player.vimeo.com/video/146938134?autoplay=1&loop=1color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
 					<div class="background-caption for-iframe">
@@ -304,10 +304,22 @@
 				</section>
 
 				<section>
+					<iframe data-src="https://player.vimeo.com/video/10021555?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
+					<div class="background-caption for-iframe">
+						<h3>RandomWalk Triangles</h3>
+						<h5 class="byline thin"><a href="http://gcrll.net/" target="_blank">Guido Corallo</a></h5>
+					</div>
+					<aside class="notes" data-markdown>
+						Random walk algorithm
+					</aside>
+				</section>
+
+				<!--
+				<section>
 					<iframe src="https://www.youtube.com/embed/eAjKD12RkEY?autoplay=0" width="1600" height="900" frameborder="0"></iframe>
 					<div class="background-caption for-iframe">
 						<h3>Music of Changes</h3>
-						<h5 class="byline thin"><a href="https://en.wikipedia.org/wiki/Music_of_Changes" target="_blank">Craig Reynolds</a></h5>
+						<h5 class="byline thin"><a href="https://en.wikipedia.org/wiki/Music_of_Changes" target="_blank">John Cage</a></h5>
 					</div>
 					<img data-src="cage-7125396.png">
 					<aside class="notes" data-markdown>
@@ -315,20 +327,7 @@
 						Randomness and algorithmic composition do _not_ guarantee aesthetic pleasure.
 					</aside>
 				</section>
-
-				<section>
-					<iframe data-src="https://player.vimeo.com/video/212397917?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
-					<div class="background-caption for-iframe">
-						<h3>Shepherding Randomness</h3>
-						<h5 class="byline thin"><a href="inconvergent.net/shepherding-random-numbers/" target="_blank">Anders Hoff</a></h5>
-					</div>
-					<aside class="notes" data-markdown>
-						Algorithms used to "shepherd" randomness
-						Randomize velocity, keep within bounds, and sum across horizontal canvas
-						Random walk for each point; each point randomly moves toward or away average position of neighbors
-						Differential growth; randomly bisect edges between nodes if they are long and/or curved strongly enough
-					</aside>
-				</section>
+				-->
 
 				<section>
 					<iframe src="https://www.youtube.com/embed/tysoSbEL8Zw?start=15&end=82&autoplay=0" width="1600" height="900" frameborder="0"></iframe>
@@ -348,7 +347,22 @@
 						<h5 class="byline thin"><a href="https://www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html" target="_blank">New York Times</a></h5>
 					</div>
 					<aside class="notes" data-markdown>
-						TODO
+						[Gregor Aisch](https://www.vis4.net/blog/posts/jittery-gauges-election-forecast/)
+						> this movement actually helped demonstrate the uncertainty around our forecast, conveying the relative precision of our estimates....bound[ed] by the 25th and 75 percentile of simulated outcomes...
+					</aside>
+				</section>
+
+				<section>
+					<iframe data-src="https://player.vimeo.com/video/212397917?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
+					<div class="background-caption for-iframe">
+						<h3>Shepherding Randomness</h3>
+						<h5 class="byline thin"><a href="http://inconvergent.net/shepherding-random-numbers/" target="_blank">Anders Hoff</a></h5>
+					</div>
+					<aside class="notes" data-markdown>
+						Algorithms used to "shepherd" randomness
+						Randomize velocity, keep within bounds, and sum across horizontal canvas
+						Random walk for each point; each point randomly moves toward or away average position of neighbors
+						Differential growth; randomly bisect edges between nodes if they are long and/or curved strongly enough
 					</aside>
 				</section>
 
@@ -370,7 +384,7 @@
 					</div>
 					<aside class="notes" data-markdown>
 						1. "data elements" can have complexity of their own, represented as glyphs; can be e.g. curves or rose charts, not just dots
-						2. force-directed network diagram: distance inversely proportional to strength of relationship
+						2. relationships: e.g. force-directed network diagram: distance inversely proportional to strength of relationship
 						3. represent overall system behavior via interactions between particles
 					</aside>
 				</section>
@@ -382,7 +396,19 @@
 						<h5 class="byline thin"><a href="http://www.red3d.com/cwr/boids/" target="_blank">Craig Reynolds</a></h5>
 					</div>
 					<aside class="notes" data-markdown>
-						overall system behavior
+						boids, 1986  
+						each particle attempts to stay a certain distance from its neighbors
+					</aside>
+				</section>
+
+				<section>
+					<iframe data-src="https://player.vimeo.com/video/132161478?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
+					<div class="background-caption for-iframe">
+						<h3>Murmuration</h3>
+						<h5 class="byline thin"><a href="http://roberthodgin.com/portfolio/work/murmuration/" target="_blank">Robert Hodgin</a></h5>
+					</div>
+					<aside class="notes" data-markdown>
+						iteration on Boids
 					</aside>
 				</section>
 
@@ -406,6 +432,7 @@
 					</aside>
 				</section>
 
+				<!--
 				<section data-background-image="./ovc2017/slides/p12-16-1-14_lrg.png" data-background-size="contain">
 					<div class="background-caption for-iframe">
 						<h3 style="text-align: left">Poetry on the<br>Road 2012</h3>
@@ -415,6 +442,7 @@
 						...focuses on the the »density« of poems....Every word is represented as a particle, while certain properties apply forces to the overall system. A sequence of words is considered a chain of springs that tries to sustain its shape. Then other forces are applied - the same words drift to each other, for example.
 					</aside>
 				</section>
+				-->
 
 				<section>
 					<iframe data-src="https://player.vimeo.com/video/212199753?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
@@ -446,6 +474,7 @@
 					</aside>
 				</section>
 
+				<!--
 				<section data-background-image="./ovc2017/slides/spring2011.jpg" data-background-size="cover">
 					<div class="background-caption for-iframe light">
 						<h3>Drawing Water</h3>
@@ -454,7 +483,7 @@
 					<aside class="notes" data-markdown>
 					</aside>
 				</section>
-
+				-->
 
 
 
@@ -525,6 +554,9 @@
 					</aside>
 				</section>
 
+				<!-- TODO: add: http://www.r2d3.us/visual-intro-to-machine-learning-part-1/ -->
+
+				<!--
 				<section>
 					<iframe src="https://www.youtube.com/embed/azy-c6QXUCw?start=30&end=68&autoplay=0" width="1600" height="900" frameborder="0"></iframe>
 					<div class="background-caption for-iframe">
@@ -547,7 +579,7 @@
 						because, you know...fractals. ...whoa.
 					</aside>
 				</section>
-
+				-->
 
 
 				<!--
@@ -564,13 +596,13 @@
 						<li class="fragment fade-up"><h4>draw attention</h4></li>
 					</ul>
 					<aside class="notes" data-markdown>
-						1. 
+						1. personality (this is what animators do for a living)
 						2. 
 						3. 
 						4. both to an element within the piece and to the piece itself
 					</aside>
 				</section>
-
+				<!--
 				<section>
 					<div id="flv01"></div>
 					<div class="background-caption">
@@ -582,7 +614,7 @@
 						motion to add character, whimsy
 					</aside>
 				</section>
-
+				-->
 				<section>
 					<iframe data-src="https://player.vimeo.com/video/203178245#t=30?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="1600" height="900" frameborder="0"></iframe>
 					<div class="background-caption for-iframe">
@@ -615,6 +647,8 @@
 
 					</aside>
 				</section>
+
+				<!-- TODO: example demonstrating higlighting interrelationships -->
 
 				<section>
 					<iframe src="https://www.youtube.com/embed/jbkSRLYSojo?start=238&end=255&autoplay=0" width="1600" height="900" frameborder="0"></iframe>
@@ -785,6 +819,9 @@
 						Visualization community has been having conversations lately about how we practice visualization.
 						D3 Slack, Twitter, Medium.
 						Elijah and I started this publication to keep the conversation going.
+
+						> While visualization as a tool has existed for a long time, visualization as a profession is a new amalgam of many related fields. Visualizing, the Field is a forum for practitioners to discuss the scope and impact of this new profession. This collection of reflections on our practice will help us define the contours of our field and make evident the value it brings to our colleagues and our audience.
+
 						Would love to hear your thoughts.
 					</aside>
 				</section>
