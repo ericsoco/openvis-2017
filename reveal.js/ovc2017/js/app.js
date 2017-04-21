@@ -30,6 +30,7 @@
 
 	});
 
+	/*
 	// install flowplayer into selected container
 	var container = document.getElementById('flv01');
 	flowplayer(container, {
@@ -40,5 +41,6 @@
 			}]
 		}
 	});
+	*/
 
 })();
