@@ -353,6 +353,14 @@ body {
   width: 100%;
   transform: translateX(-50%);
 }
+.reveal .background-caption h3,
+.reveal .background-caption h5 {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+}
+.reveal .background-caption.light h3,
+.reveal .background-caption.light h5 {
+  text-shadow: none;
+}
 .reveal section img {
   border: none;
 }
