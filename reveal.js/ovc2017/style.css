@@ -395,3 +395,16 @@ body {
   position: relative;
   top: -144px;
 }
+
+.reveal .slides section img.fragment.zoom-in {
+  box-shadow: none;
+}
+.reveal .slides section .fragment.zoom-in.but-wait {
+  left: 51%;
+  top: -28%;
+  transform: translateX(-50%) scale(0.1);
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.reveal .slides section .fragment.zoom-in.but-wait.visible {
+  transform: translateX(-50%) scale(1.25);
+}
