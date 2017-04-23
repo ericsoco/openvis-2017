@@ -1,9 +1,10 @@
 (function () {
 
 	// monkeypatch layout() to enable calculating slide size without backgroundCaption
+	// NOTE: for this monkeypatch to work, reveal.js must be modified:
+	//		 change all `layout()` calls to `Reveal.layout()`
 	var revealLayout = Reveal.layout;
 	Reveal.layout = function () {
-		console.log("HELOOOO");
 		slides = Array.prototype.slice.call( document.querySelectorAll( '.reveal .slides section' ) );
 
 		for( var i = 0, len = slides.length; i < len; i++ ) {
