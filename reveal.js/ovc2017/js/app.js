@@ -3,6 +3,7 @@
 	// monkeypatch layout() to enable calculating slide size without backgroundCaption
 	var revealLayout = Reveal.layout;
 	Reveal.layout = function () {
+		console.log("HELOOOO");
 		slides = Array.prototype.slice.call( document.querySelectorAll( '.reveal .slides section' ) );
 
 		for( var i = 0, len = slides.length; i < len; i++ ) {
@@ -18,6 +19,19 @@
 				backgroundCaption = slide.querySelector('.background-caption');
 			if (backgroundCaption) backgroundCaption.style.display = 'block';
 		}
+
+		// copy .slides style (calculated by reveal.js::layout()) to .backgrounds div,
+		// to ensure scale is enforced on slide backgrounds as well.
+		// this allows the use of `data-background-image` for full-bleed background images,
+		var slidesStyle = document.querySelector('.slides').style,
+			backgroundsDiv = document.querySelector('.backgrounds');
+		backgroundsDiv.style.width = slidesStyle.width;
+		backgroundsDiv.style.height = slidesStyle.height;
+		backgroundsDiv.style.left = slidesStyle.left;
+		backgroundsDiv.style.top = slidesStyle.top;
+		backgroundsDiv.style.bottom = slidesStyle.bottom;
+		backgroundsDiv.style.right = slidesStyle.right;
+		backgroundsDiv.style.transform = slidesStyle.transform;
 	}
 
 	Reveal.addEventListener( 'slidechanged', function( event ) {
