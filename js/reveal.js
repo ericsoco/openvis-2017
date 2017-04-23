@@ -1932,7 +1932,7 @@
 			layoutOverview();
 			updateOverview();
 
-			Reveal.layout();
+			layout();
 
 			// Notify observers of the overview showing
 			dispatchEvent( 'overviewshown', {
@@ -2037,7 +2037,7 @@
 
 			slide( indexh, indexv );
 
-			Reveal.layout();
+			layout();
 
 			cueAutoSlide();
 
@@ -2261,7 +2261,7 @@
 		// Update the visibility of slides now that the indices have changed
 		updateSlidesVisibility();
 
-		Reveal.layout();
+		layout();
 
 		// Apply the new state
 		stateLoop: for( var i = 0, len = state.length; i < len; i++ ) {
@@ -2377,7 +2377,7 @@
 		addEventListeners();
 
 		// Force a layout to make sure the current config is accounted for
-		Reveal.layout();
+		layout();
 
 		// Reflect the current autoSlide value
 		autoSlide = config.autoSlide;
@@ -4508,7 +4508,7 @@
 	 */
 	function onWindowResize( event ) {
 
-		Reveal.layout();
+		layout();
 
 	}
 
