@@ -2,6 +2,7 @@
 Data as a Creative Constraint: Eric Socolofsky, OpenVis Conf 2017
 
 ## Building
+Sorry, this is messy! ....
 
 #### Step 1.
 Clone and install presentation wrapper
@@ -16,10 +17,17 @@ Install Reveal.js with customizations
 ```
 mv reveal.js reveal.temp.js
 git clone git@github.com:hakimel/reveal.js.git
-mv -r ./reveal.temp.js ./reveal.js
+cp -r ./reveal.temp.js ./reveal.js
 rm -rf ./reveal.temp.js
 ```
 
 #### Step 3.
 Enable monkeypatching of Reveal.js.  
-In `./reveal.js/js/reveal.js`, replace every `layout()` call with `Reveal.layout()`, to expose `layout()` for monkeypatching by `./ovc2017/js/app.js`.
+In `./reveal.js/js/reveal.js`, replace every `layout()` call with `Reveal.layout()`.  
+This exposes `layout()` for monkeypatching by `./ovc2017/js/app.js`.
+
+#### Step 4.
+Run from the root folder of the project with
+```
+npm start
+```

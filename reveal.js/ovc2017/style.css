@@ -346,6 +346,9 @@ body {
 .reveal section.title-slide * {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
 }
+.reveal section.title-slide.dark-shadow * {
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
 .reveal .background-caption {
   position: fixed;
   left: 50%;
