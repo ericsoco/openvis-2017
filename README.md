@@ -31,3 +31,10 @@ Run from the root folder of the project with
 ```
 npm start
 ```
+
+## Deploying
+```
+cp ./reveal.js/.gitignore-gh-pages ./reveal.js/.gitignore
+npm run gh-deploy
+cp ./reveal.js/.gitignore-master ./reveal.js/.gitignore
+```
