@@ -13,10 +13,10 @@ css/reveal.min.css
 js/reveal.min.js
 
 # ignore reveal.js files, to commit only presentation-specific content
-# css
-# js
-# lib
-# plugin
+css
+js
+lib
+plugin
 test
 .travis.yml
 bower.json

@@ -130,6 +130,10 @@ composite-tracts-fair.png
 Michal Migurski
 http://mike.teczno.com/notes/redistricting/random-wisconsin-plans.html
 
+visualIntro3.gif
+Tony Chu & Stephanie Yee
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+
 Additional reading:
 http://www.eamesoffice.com/the-work/design-q-a-text/
 http://www.jnd.org/dn.mss/affordance_conv.html
