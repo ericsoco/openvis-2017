@@ -110,6 +110,30 @@ CinemaRedux-Vertigo.jpg
 Cinema Redux - Vertigo, Brendan Dawes
 http://www.brendandawes.com/projects/cinemaredux
 
+metropolParasol.jpg
+Jürgen Mayer (Dmitry Sakharov)
+https://www.flickr.com/photos/59524761@N07/18095970444
+
+inauguration.jpg
+National Parks Service, via newsy.com
+http://www.newsy.com/stories/national-park-service-releases-photos-of-inauguration-crowd/
+
+gerrymandering.jpg
+Blair Thornburg
+https://twitter.com/ATallOrder/status/831551224486977541
+
+gerrymandering2.jpg
+Adam Schweigert
+https://www.etsy.com/listing/502047755/gerrymandering-t-shirts
+
+composite-tracts-fair.png
+Michal Migurski
+http://mike.teczno.com/notes/redistricting/random-wisconsin-plans.html
+
+visualIntro3.gif
+Tony Chu & Stephanie Yee
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+
 Additional reading:
 http://www.eamesoffice.com/the-work/design-q-a-text/
 http://www.jnd.org/dn.mss/affordance_conv.html
